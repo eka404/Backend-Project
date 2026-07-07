@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import { DB_NAME } from "./constants.js";
 import connectDB from "./db/index.js";
+import { app } from "./app.js";
 
 console.log("PORT =", process.env.PORT);
 console.log("MONGODB_URI =", process.env.MONGODB_URI);
